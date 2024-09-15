@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}
+YOUR IMPRESSIONS
+{% endblock %}
+
+{% block content %}
+<p>pay twice as much, get nothing</p>
+<div>
+    <form class="input-form" method="post">
+    <input name="name" type="text" placeholder="Tour name">
+    <textarea name="description" cols="30" rows="10" placeholder="Your impressions"></textarea>
+    <input class="button-link" type="submit" value="Send right away">
+    </form>
+</div>
+{% endblock %}
